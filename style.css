@@ -140,7 +140,7 @@ header.shadow .navbar a{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../asset/banner.png");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("banner.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
