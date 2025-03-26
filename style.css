@@ -710,6 +710,8 @@ header.shadow .navbar a{
 .educational-section .inform{
     display: flex;
     flex-direction: column;
+    height: 400px;
+    overflow: scroll;
     gap: 5px;
     background: #fff;
     padding: 20px 16px;
@@ -762,6 +764,8 @@ header.shadow .navbar a{
 .studyAbroad .inform{
     display: flex;
     flex-direction: column;
+    height: 400px;
+    overflow: scroll;
     gap: 5px;
     background: #fff;
     padding: 20px 16px;
@@ -813,6 +817,8 @@ header.shadow .navbar a{
 
 .application-process .inform{
     display: flex;
+    height: 400px;
+    overflow: scroll;
     flex-direction: column;
     gap: 5px;
     background: #fff;
