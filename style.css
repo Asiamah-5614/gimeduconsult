@@ -688,12 +688,13 @@ header.shadow .navbar a{
 
 .educational-section{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
-    top: 100px;
+    top: 0;
+    z-index: 99999;
     right: 0;
-    background: rgb(153, 153, 153);
-    padding: 2rem 20%;
+    background: #fff;
+    padding: 1rem 10px;
     display: none;
     animation: openModal 1s linear forwards;
 }
@@ -710,12 +711,10 @@ header.shadow .navbar a{
 .educational-section .inform{
     display: flex;
     flex-direction: column;
-    height: 400px;
-    overflow: scroll;
     gap: 5px;
     background: #fff;
     padding: 20px 16px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    margin-top: 30px;
 }
 
 .educational-section .inform h2{
@@ -737,17 +736,18 @@ header.shadow .navbar a{
     font-size: 2rem;
     cursor: pointer;
     rotate: 45deg;
-    color: #fff;
+    color: #000;
 }
 
 .studyAbroad {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
-    top: 100px;
+    top: 0;
+    z-index: 99999;
     right: 0;
-    background: rgb(153, 153, 153);
-    padding: 2rem 20%;
+    background: #fff;
+    padding: 1rem 10px;
     display: none;
     animation: openModal 1s linear forwards;
 }
@@ -764,12 +764,10 @@ header.shadow .navbar a{
 .studyAbroad .inform{
     display: flex;
     flex-direction: column;
-    height: 400px;
-    overflow: scroll;
     gap: 5px;
     background: #fff;
     padding: 20px 16px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    margin-top: 30px;
 }
 
 .studyAbroad .inform h2{
@@ -791,17 +789,18 @@ header.shadow .navbar a{
     font-size: 2rem;
     cursor: pointer;
     rotate: 45deg;
-    color: #fff;
+    color: #000;
 }
 
 .application-process {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
-    top: 100px;
+    top: 0;
+    z-index: 99999;
     right: 0;
-    background: rgb(153, 153, 153);
-    padding: 2rem 20%;
+    background: #fff;
+    padding: 1rem 10px;
     display: none;
     animation: openModal 1s linear forwards;
 }
@@ -817,13 +816,11 @@ header.shadow .navbar a{
 
 .application-process .inform{
     display: flex;
-    height: 400px;
-    overflow: scroll;
     flex-direction: column;
     gap: 5px;
     background: #fff;
     padding: 20px 16px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    margin-top: 30px;
 }
 
 .application-process .inform h2{
@@ -845,7 +842,7 @@ header.shadow .navbar a{
     font-size: 2rem;
     cursor: pointer;
     rotate: 45deg;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -854,32 +851,26 @@ header.shadow .navbar a{
 @media screen and (max-width: 700px){ 
     .educational-section{
         padding: 9px;
-        background: rgb(153, 153, 153);
     }   
 
     .educational-section .inform{
         margin-top: 50px;
-        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
     }
 
     .studyAbroad{
         padding: 9px;
-        background: rgb(153, 153, 153);
     }   
 
     .studyAbroad .inform{
         margin-top: 50px;
-        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
     }
 
     .application-process{
         padding: 9px;
-        background: rgb(153, 153, 153);
     }   
 
     .application-process .inform{
         margin-top: 50px;
-        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
     }
     
     .container{
