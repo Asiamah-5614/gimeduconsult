@@ -640,8 +640,242 @@ header.shadow .navbar a{
     gap: 15px;
 }
 
+.service-info-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-info-card .info-card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    background: #fff;
+    padding: 18px 15px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+
+.service-info-card .info-card:hover{
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.0);
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.service-info-card .info-card .info-icon-1 i{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.service-info-card .info-card .para h3{
+    font-size: 14px;
+}
+
+.service-info-card .info-card .para p{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;  /* Number of lines before truncation */
+    overflow: hidden;
+}
+
+.service-info-card .info-card .para button{
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 153);
+}
+
+.educational-section{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background: rgb(153, 153, 153);
+    padding: 2rem 20%;
+    display: none;
+    animation: openModal 1s linear forwards;
+}
+
+@keyframes openModal{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.educational-section .inform{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #fff;
+    padding: 20px 16px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+
+.educational-section .inform h2{
+    font-size: 18px;
+}
+
+.educational-section .inform p{
+    font-size: 14px;
+}
+
+.educational-section .inform h4{
+    font-size: 16px;
+}
+
+.educational-section span{
+    position: absolute;
+    top: 10px;
+    right: 1.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    rotate: 45deg;
+    color: #fff;
+}
+
+.studyAbroad {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background: rgb(153, 153, 153);
+    padding: 2rem 20%;
+    display: none;
+    animation: openModal 1s linear forwards;
+}
+
+@keyframes openModal{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.studyAbroad .inform{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #fff;
+    padding: 20px 16px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+
+.studyAbroad .inform h2{
+    font-size: 18px;
+}
+
+.studyAbroad .inform p{
+    font-size: 14px;
+}
+
+.studyAbroad .inform h4{
+    font-size: 16px;
+}
+
+.studyAbroad span{
+    position: absolute;
+    top: 10px;
+    right: 1.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    rotate: 45deg;
+    color: #fff;
+}
+
+.application-process {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background: rgb(153, 153, 153);
+    padding: 2rem 20%;
+    display: none;
+    animation: openModal 1s linear forwards;
+}
+
+@keyframes openModal{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.application-process .inform{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #fff;
+    padding: 20px 16px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+
+.application-process .inform h2{
+    font-size: 18px;
+}
+
+.application-process .inform p{
+    font-size: 14px;
+}
+
+.application-process .inform h4{
+    font-size: 16px;
+}
+
+.application-process span{
+    position: absolute;
+    top: 10px;
+    right: 1.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    rotate: 45deg;
+    color: #fff;
+}
+
+
+
 /* RESPONSIVENESS FOR BOTH MOBILE PHONES AND IPAD */
-@media screen and (max-width: 700px){    
+@media screen and (max-width: 700px){ 
+    .educational-section{
+        padding: 9px;
+        background: rgb(153, 153, 153);
+    }   
+
+    .educational-section .inform{
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    }
+
+    .studyAbroad{
+        padding: 9px;
+        background: rgb(153, 153, 153);
+    }   
+
+    .studyAbroad .inform{
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    }
+
+    .application-process{
+        padding: 9px;
+        background: rgb(153, 153, 153);
+    }   
+
+    .application-process .inform{
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    }
+    
     .container{
         width: 100%;
         margin-left: auto;
@@ -810,5 +1044,10 @@ header.shadow .navbar a{
         flex-direction: column;
         gap: 15px;
         padding: 0 15px;
+    }
+
+    .service-info-card{
+        grid-template-columns: 1fr;
+        padding: 5px 15px;
     }
 }
