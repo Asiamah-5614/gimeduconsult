@@ -870,7 +870,7 @@ header.shadow .navbar a{
 
     .educational-section .inform{
         margin-top: 50px;
-        height: 800px;
+        height: 500px;
         overflow: scroll;
     }
 
@@ -880,7 +880,7 @@ header.shadow .navbar a{
 
     .studyAbroad .inform{
         margin-top: 50px;
-        height: 800px;
+        height: 500px;
         overflow: scroll;
     }
 
@@ -890,7 +890,7 @@ header.shadow .navbar a{
 
     .application-process .inform{
         margin-top: 50px;
-        height: 600px;
+        height: 500px;
         overflow: scroll;
     }
     
