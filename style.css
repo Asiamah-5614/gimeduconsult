@@ -719,14 +719,23 @@ header.shadow .navbar a{
 
 .educational-section .inform h2{
     font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.educational-section .inform .style{
+    line-height: 2;
 }
 
 .educational-section .inform p{
     font-size: 14px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .educational-section .inform h4{
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .educational-section span{
@@ -764,7 +773,6 @@ header.shadow .navbar a{
 .studyAbroad .inform{
     display: flex;
     flex-direction: column;
-    gap: 5px;
     background: #fff;
     padding: 20px 16px;
     margin-top: 30px;
@@ -772,14 +780,18 @@ header.shadow .navbar a{
 
 .studyAbroad .inform h2{
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .studyAbroad .inform p{
     font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .studyAbroad .inform h4{
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .studyAbroad span{
@@ -817,7 +829,6 @@ header.shadow .navbar a{
 .application-process .inform{
     display: flex;
     flex-direction: column;
-    gap: 5px;
     background: #fff;
     padding: 20px 16px;
     margin-top: 30px;
@@ -825,14 +836,18 @@ header.shadow .navbar a{
 
 .application-process .inform h2{
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .application-process .inform p{
     font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .application-process .inform h4{
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .application-process span{
@@ -855,6 +870,8 @@ header.shadow .navbar a{
 
     .educational-section .inform{
         margin-top: 50px;
+        height: 800px;
+        overflow: scroll;
     }
 
     .studyAbroad{
@@ -863,6 +880,8 @@ header.shadow .navbar a{
 
     .studyAbroad .inform{
         margin-top: 50px;
+        height: 800px;
+        overflow: scroll;
     }
 
     .application-process{
@@ -871,6 +890,8 @@ header.shadow .navbar a{
 
     .application-process .inform{
         margin-top: 50px;
+        height: 800px;
+        overflow: scroll;
     }
     
     .container{
