@@ -37,3 +37,20 @@ let nav = document.querySelectorAll(".navbar li a")
                 list.classList.add("active")
             })
 })
+
+
+
+function sendMail() {
+     let parms = {
+          name : document.querySelector('#name').value,
+          email : document.querySelector('#email').value,
+          message : document.querySelector('#message').value,
+     }
+
+     emailjs.send("service_56ay4ru", "template_fr2vuk5", parms).then(alert("Email sent successfully!!"))
+}
+
+/* const sendBtn = document.querySelector('#send-btn')
+sendBtn.addEventListener('click', (e)=>{
+     sendMail()
+}) */
