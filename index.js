@@ -50,7 +50,8 @@ function sendMail() {
      emailjs.send("service_56ay4ru", "template_fr2vuk5", parms).then(alert("Email sent successfully!!"))
 }
 
-/* const sendBtn = document.querySelector('#send-btn')
+const sendBtn = document.querySelector('#send-btn')
 sendBtn.addEventListener('click', (e)=>{
+     e.preventDefault()
      sendMail()
-}) */
+})
