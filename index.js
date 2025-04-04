@@ -38,8 +38,6 @@ let nav = document.querySelectorAll(".navbar li a")
             })
 })
 
-
-
 function sendMail() {
      let parms = {
           name : document.querySelector('#name').value,
